@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+    /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);*/ 
+
+    background: #f857a6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f857a6, #ff5858); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f857a6, #ff5858); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+.subp{ 
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+}
+.bnt{
+    color: cadetblue;
+}
+body{
+    text-align: center;
+}
+
+.font{
+    font:30px 'Poppins', sans-serif;
+}
+.margin{
+    margin: 12px;
+}
+.jogos{
+    font-size: 21px;
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+}
+.jogos-ta{
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+    margin: 25px;
+}
+.imgs{
+    width: 261px;
+    height: 381px;
+}
+.divs{
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.div2{
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.games ul li{
+    background-color: azure;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: 85px;
+}
+
+#sobreb{
+    text-align: right;
+    width: 500px;
+    height: 250px;
+}
+#sobre{
+    text-align: left;
+}
+
+#menu{
+    background-color: rgb(25, 25, 26);
+}
+
+#menu ul {
+    max-width: 500px;
+    list-style-type: none;
+    padding: 0;
+}
+#menu ul li{
+    display: inline;
+}
+
+
+#menu ul li a{
+    color: rgb(245, 245, 245);
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu ul li a:hover {
+    background-color: rgba(220, 20, 60, 0.849);
+}
